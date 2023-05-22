@@ -1,0 +1,158 @@
+@font-face {
+  font-family: militech;
+  src: url(fontes/militech_r_2019-04-13.ttf) format("truetype");
+}
+
+.inicio-azul {
+  background-color: #4dc1ff;
+}
+
+.inicio-vermelho {
+  background-color: rgba(231, 38, 38, 0.884);
+}
+
+.inicio-verde {
+  background-color: rgb(87, 240, 41);
+}
+
+.inicio-amarelo {
+  background-color: rgb(255, 255, 3);
+}
+
+.inicio-marrom {
+  background-color: rgba(104, 19, 19, 0.856);
+}
+
+.inicio-preto {
+  background-color: rgb(230, 100, 14);
+}
+
+.page-azul {
+  background-image: linear-gradient(to right, #4dc1ff, transparent);
+}
+
+.page-vermelha {
+  background-image: linear-gradient(to right, rgb(247, 30, 30), transparent);
+}
+
+.page-amarela {
+  background-image: linear-gradient(to right, #cefc02d0, transparent);
+}
+
+.page-verde {
+  background-image: linear-gradient(to right, rgb(19, 241, 19), transparent);
+}
+
+.page-marrom {
+  background-image: linear-gradient(to right, #7e1d0ccb, transparent);
+}
+
+.page-preta {
+  background-image: linear-gradient(to right, rgb(230, 100, 14), transparent);
+}
+
+div.video {
+  margin: auto;
+  padding: 20px;
+  padding-bottom: 50%;
+  bottom: 30px;
+  position: relative;
+}
+
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-family: militech;
+  font-size: 60px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  text-indent: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  margin: auto;
+}
+
+nav {
+  text-decoration: none;
+  text-indent: 13px;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  transition: duration 0.3s;
+  border-radius: 5px;
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #7120dbcb;
+  padding: 3px;
+}
+
+main {
+  background-color: white;
+  padding: 30px;
+  border-radius: 3px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.644);
+}
+
+main p {
+  padding: 5px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 18.5px;
+  font-size: 16px;
+}
+
+footer {
+  margin: auto;
+  text-align: end;
+  border-radius: 5px;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: #0298fcda;
+  color: white;
+}
